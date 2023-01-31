@@ -1,5 +1,6 @@
+import React from 'react';
 import { render, screen } from '@testing-library/react';
-import App from "./tests/App";
+import App from "./components/App";
 
 test('renders weather app', () => {
   render(<App />);
