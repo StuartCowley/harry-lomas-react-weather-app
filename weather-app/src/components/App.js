@@ -5,8 +5,6 @@ import LocationDetails from './LocationDetails';
 import ForecastSummaries from "./ForecastSummaries";
 
 function App({ location, forecasts }) {
-  const { city, country } = location;
-
   return (
     <div className="forecast">
       <LocationDetails city={location.city} country={location.country} />
