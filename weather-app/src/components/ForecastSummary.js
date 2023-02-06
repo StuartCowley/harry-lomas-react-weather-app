@@ -8,6 +8,7 @@ function ForecastSummary(props) {
     description,
     icon,
     temperature,
+    onSelect,
   } = props;
   const formattedDate = new Date(date).toDateString();
 
@@ -26,6 +27,10 @@ function ForecastSummary(props) {
       <div className="forecast-summary__description">
         {description}
       </div>
+      <button type="button" onClick={() => onSelect(date)}>
+        More Details
+      </button>
+
     </div>
   );
 }

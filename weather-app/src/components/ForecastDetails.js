@@ -2,7 +2,9 @@ import React from "react";
 import PropTypes from "prop-types";
 
 function ForecastDetails({ forecast }) {
-  const { date, temperature, humidity, wind } = forecast;
+  const {
+    date, temperature, humidity, wind,
+  } = forecast;
   const formattedDate = new Date(date).toDateString();
   return (
     <div className="forecast-details">
@@ -15,7 +17,10 @@ function ForecastDetails({ forecast }) {
         {temperature.max}
         &deg;C
       </div>
-      <div className="forecast-details__humidity">{humidity}%</div>
+      <div className="forecast-details__humidity">
+        {humidity}
+        %
+      </div>
       <div className="forecast-details__wind">
         {wind.speed}mph, {wind.direction}
       </div>
