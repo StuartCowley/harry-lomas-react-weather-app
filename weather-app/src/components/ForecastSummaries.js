@@ -30,6 +30,7 @@ ForecastSummaries.propTypes = {
         max: PropTypes.number,
         min: PropTypes.number,
       }),
+      onForecastSelect: PropTypes.func.isRequired
     }),
   ).isRequired,
   onForecastSelect: PropTypes.func.isRequired,
