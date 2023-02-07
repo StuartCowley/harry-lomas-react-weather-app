@@ -60,12 +60,12 @@ exports[`ForecastSummaries renders correctly 1`] = `
       <div
         class="forecast-summary__temperature"
       >
-        24°C
+        27°C
       </div>
       <div
         class="forecast-summary__description"
       >
-        Stub description2
+        Stub description 2
       </div>
       <button
         type="button"

@@ -30,11 +30,9 @@ function ForecastSummary(props) {
       <button type="button" onClick={() => onSelect(date)}>
         More Details
       </button>
-
     </div>
   );
 }
-
 ForecastSummary.propTypes = {
   date: PropTypes.number.isRequired,
   description: PropTypes.string.isRequired,
@@ -44,5 +42,4 @@ ForecastSummary.propTypes = {
     max: PropTypes.number,
   }).isRequired,
 };
-
 export default ForecastSummary;

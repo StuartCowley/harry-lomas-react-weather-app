@@ -5,33 +5,36 @@ import ForecastSummaries from "../../components/ForecastSummaries";
 describe("ForecastSummaries", () => {
   const validProps = [
     {
-      date: 1111111,
+      date: 11100011,
       description: "Stub description 1",
       icon: "500",
       temperature: {
-        max: 22,
         min: 12,
+        max: 22,
       },
     },
-
     {
-      date: 2222222,
-      description: "Stub description2",
+      date: 22200011,
+      description: "Stub description 2",
       icon: "600",
       temperature: {
-        max: 24,
-        min: 13,
+        min: 15,
+        max: 27,
       },
     },
   ];
+
   it("renders correctly", () => {
     const { asFragment } = render(<ForecastSummaries forecasts={validProps} />);
+
     expect(asFragment()).toMatchSnapshot();
   });
-  it("renders the correct number of Forecast Summary instances", () => {
+
+  it("renders the correct number of ForecastSummary instances", () => {
     const { getAllByTestId } = render(
-      <ForecastSummaries forecasts={validProps} />
+      <ForecastSummaries forecasts={validProps} />,
     );
+
     expect(getAllByTestId("forecast-summary")).toHaveLength(2);
   });
 });
