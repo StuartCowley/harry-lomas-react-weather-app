@@ -1,6 +1,8 @@
 # 🌞 🌧️ 🌀 React Weather Forecasting App
 
-A Weather Forecasting application built using React and JSX.
+A Weather Forecasting application built using React and JSX.![Screenshot from 2023-02-07 13-16-50](https://user-images.githubusercontent.com/113047234/217255361-ddb8c67a-b6e8-42bb-a1f6-0e6e0ef77c4c.png)
+![Screenshot from 2023-02-07 13-15-32](https://user-images.githubusercontent.com/113047234/217255377-cc75625b-a9d6-4d46-b859-e4918eb1e3a6.png)
+
 
 # Quick Start and Commands
 
