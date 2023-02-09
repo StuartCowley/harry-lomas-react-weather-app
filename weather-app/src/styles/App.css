@@ -1,0 +1,13 @@
+.weather-app {
+    background-image:url(../images/WeatherAppBackground.avif);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.search-form {
+    align-content: center;
+}
+
